@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d8e2dc;
+    color: #1d3557;
+}
+.box{
+    width:100%;
+    height: auto;
+    display: flex;
+    padding:2rem;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h1{
+  display: block;
+}
+
+form{
+    padding: 0.5rem;
+    font-size:1.2rem;
+}
+
+label{
+    width:100%;
+}
+
+input{
+    height: 1.6rem;
+    margin:0.5rem;
+    padding:0.4rem;
+}
+
+button{
+    margin:0.2rem;
+    padding: 0.4rem;
+}
+button:hover{
+    background-color: #457b9d;
+    color:#E9ECEF ;
+}
+
+input,button{
+    border: 1px solid #ADB5BD;
+    border-radius: 10px;
+    color: #1d3557;
+
+}
+
+hr{
+    border: 1px solid #1d3557;
+}
